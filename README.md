@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Auth Boilerplate
 
-## Getting Started
+A full-featured, type-safe authentication starter built with Next.js App Router, supporting email/password auth, OAuth, protected routes, and PostgreSQL using Drizzle ORM.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔑 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 Email/Password authentication
+- 🌐 Better-Auth integration (Google, Facebook, etc)
+- 🧠 Secure session handling
+- 🛡️ Route protection via middleware
+- 🧱 PostgreSQL with Drizzle ORM
+- 🪄 Type-safe code with TypeScript
+- 📁 Clean modular structure
+- ✅ Vercel-ready deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies Used
 
-## Learn More
+- [Next.js](https://nextjs.org/) 15 (App Router)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Drizzle ORM](https://orm.drizzle.team/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Better-Auth](https://www.better-auth.com/) (Google, can be extended to use other social media)
+- [Zod](https://zod.dev/) – for schema validation
+- ESLint, Prettier, and modern tooling
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🙌 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+There’s currently no `CONTRIBUTING.md`, but PRs and issues are welcome!
 
-## Deploy on Vercel
+### Recommended workflow:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repo
+2. Create a new branch
+3. Make changes with clear commits
+4. Test thoroughly (`npm run dev`)
+5. Submit a pull request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project does not yet include a license file. 
+
+---
+
+## 📌 Summary
+
+- ✅ Email and OAuth authentication out-of-the-box support via Better-Auth
+- 🧱 PostgreSQL support via Drizzle
+- 🔐 Middleware-based route protection
+- 🧑‍💻 Developer-friendly TypeScript setup
+- ⚡ Vercel-ready with minimal config
+
+---
+
+## 💬 Need Help?
+
+Open an issue on the [GitHub repo](https://github.com/aaymartinez/nextjs-auth-boilerplate/issues) or contribute improvements.
+
+---
