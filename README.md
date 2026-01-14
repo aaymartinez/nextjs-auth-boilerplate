@@ -19,7 +19,7 @@ A full-featured, type-safe authentication starter built with Next.js App Router,
 
 ## 🛠️ Technologies Used
 
-- [Next.js](https://nextjs.org/) 15 (App Router)
+- [Next.js](https://nextjs.org/) 16 (App Router)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Drizzle ORM](https://orm.drizzle.team/)
 - [PostgreSQL](https://www.postgresql.org/)
